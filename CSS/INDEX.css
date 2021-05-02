@@ -1,0 +1,61 @@
+﻿body    {background:white}
+
+h3  {color: darkblue;
+    clear:both;
+    font-family: Forte;
+    margin-bottom:0;}
+
+span    {color: green;
+        font-family: 微軟正黑體}
+
+
+aside   {float: left;
+        width:240px;
+        position: fixed;
+        padding-right: 10px;}
+
+article {background: lightskyblue url(../media/INDEX/BGI.png) right center no-repeat;
+        background-size: 50%;
+        margin-left: 250px;
+        padding: 15px;
+        font-family: Consolas;}
+
+footer  {background: royalblue;
+        color:white;}
+
+article h2    {margin-top: 0}
+
+div {background: lightblue;
+    width: 950px;
+    margin:0 auto}
+
+.top    {float: right;}
+
+aside ul    {margin-top: 0;}
+
+aside h2    {color:#00AA00;font:18px 微軟正黑體;
+            margin-bottom: 0;}
+
+.music  {list-style: url(../media/INDEX/ear.png);}
+
+.practice   {list-style: url(../media/INDEX/pen.png);}
+
+@media screen and (min-width:0px) and (max-width:1279px){
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;}
+    aside{
+        display: none;}
+    article{
+        width: 100%;
+        margin-left: 0;
+        padding-left: 5px;
+        background-image: none;}
+    footer{
+        display: none;
+    }
+}

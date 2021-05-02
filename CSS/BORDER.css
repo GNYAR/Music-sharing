@@ -1,0 +1,16 @@
+.das    {border-style: dashed}
+.sol    {border-style: solid}
+.dot    {border-style: dotted}
+table   {border-collapse: separate}
+#n  {border-collapse: collapse;
+    border-width: 5pt 10pt 5pt 1pt;
+    border-color: blue orange red;
+    border-style: groove double}
+#m  {border: 10pt orange dashed;
+    border-radius: 10pt 5pt}
+.left {float: left}
+h3  {font-size: 36pt;
+    border-top:50pt skyblue double;
+    border-bottom: 10pt yellow dotted}
+span{font-size: 24;
+    border-bottom: 5pt blue solid}

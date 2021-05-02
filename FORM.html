@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+        <link rel="stylesheet" href="CSS/FORM.css" type="text/css">
+        <link rel="stylesheet" href="CSS/basic.css" type="text/css">
+        <link rel="Shortcut Icon" href="media/PUBLIC/HOME.png" type="image/png">
+        <script lang="JavaScript" src="JS/check.js"></script>
+    </head>
+    <body>
+        <article>
+            <form name="form1" onsubmit="return req()">
+                <table>
+                    <caption>會員報名表</caption>
+                    <tr>
+                        <th><span class="re">*</span>姓名：</th>
+                        <td colspan="3">
+                            <input type="text" name="Name" autofocus placeholder="王小明">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><span class="re">*</span>帳號：</th>
+                        <td colspan="3">
+                            <input type="text" name="Acc" maxlength="20" placeholder="最多20字">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><span class="re">*</span>密碼：</th>
+                        <td colspan="3">
+                            <input type="password" name="PW" maxlength="12" placeholder="最多12字">
+                        </td>
+                    </tr>
+                    <tr>    
+                        <th>性別：</th>
+                        <td><input type="radio" name="Sex" value="male">男性</td>
+                        <td><input type="radio" name="Sex" value="female">女性</td>
+                        <td><input type="radio" name="Sex" value="uin">中性</td>
+                    </tr>
+                    <tr>
+                        <th>生日：</th>
+                        <td colspan="3">
+                            <input type="date" name="Birth">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><span class="re">*</span>電子郵件：</th>
+                        <td colspan="3">
+                            <input type="text" name="Mail" placeholder="~@gmail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><span class="re">*</span>手機：</th>
+                        <td colspan="3">
+                            <input type="text" name="Phone" maxlength="11" placeholder="0900-000000">
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <th>興趣：</th>
+                        <td><input type="checkbox" name="Habit" value="1">旅行</td>
+                        <td><input type="checkbox" name="Habit" value="2">運動</td>
+                        <td><input type="checkbox" name="Habit" value="3">藝文</td>        
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td><input type="checkbox" name="Habit" value="4">閱讀</td>
+                        <td><input type="checkbox" name="Habit" value="5">觀賞</td>
+                        <td><input type="checkbox" name="Habit" value="6">遊戲</td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td><input type="checkbox" name="Habit" value="7">烹飪</td>
+                        <td><input type="checkbox" name="Habit" value="0">其他</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>想說的話：</th>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td colspan="3"><textarea name="Com" rows="5" cols="30"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th></th><td></td>
+                        <td><input type="reset" value="清除重填"></td>
+                        <td><input type="submit" value="完成送出"></td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+        <footer>
+            <ul>
+                <li>Email：s901121s901121@gmail.com</li>
+                <li></li>
+                <li>
+                    <span class="time">
+                        現在時間：
+                        <b>
+                            <script lang="JavaScript">
+                                d=new Date();
+                                document.write(d.toLocaleString());
+                            </script>
+                        </b>
+                    </span>
+                </li>
+            </ul>
+            <a href="index.php" title="Homepage"><img src="media/PUBLIC/HOME_C.png" height="40" width="40"></a>
+            <a href="#top" title="Go_Top"><img src="media/PUBLIC/TOP_C.png" height="40" width="40"></a>
+        </footer>
+    </body>
+</html>

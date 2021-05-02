@@ -1,0 +1,31 @@
+.p1 {color: green}
+#f1 {color: red;
+    text-shadow: 3px 2px 1px gray;
+    animation: moving 1s ease-in;}
+@keyframes moving   {from{width:0}
+                     to {width:400px}}
+.wf {font: bolder 56px 微軟正黑體}
+article ul  {list-style: url(../MCU_media/gloves.png);}
+li ul   {list-style-image: none}
+
+div {background: lightsteelblue;
+    width: 1250px;
+    margin: 0 auto}
+header  {background: darkblue;
+        color:white;}
+aside   {float: left;
+    width: 200px;
+    position: fixed}
+article {background: white;
+        margin-left: 200px;
+        padding: 15px;}
+footer  {background: darkblue;
+        color: white;}
+
+body    {background: dimgray;}
+
+article > p {margin-top: 0px}
+
+.top    {float: right;}
+
+article img {-webkit-filter: saturate(200%) drop-shadow(5px 3px 1px rgb(51, 0, 0));}
